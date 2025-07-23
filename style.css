@@ -1,0 +1,133 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ body{
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: scroll;
+  /* background-color: #6f3a92; */
+  background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  background-repeat: repeat-x repeat-y;
+  background-position: center;
+  /* background-attachment: fixed; */
+  background-color: #f0f0f0;
+  ;
+  background-size: 40%;
+  color: #657608;
+  text-align: center;
+  text-decoration: underline;
+}
+header{
+  /* background-color: #c28d8d; */
+  padding: 20px;
+  text-align: center;
+}
+section{
+  /* background-color: #9f7878; */
+  padding: 20px;
+  margin:  auto;
+  /* margin-top: 50%; */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+h1{
+  background-color: #9ddc9f;
+  border: #6c2098 solid 12px ;
+  border-left: #ff0000 solid 12px;
+  border-right: #ff0000 solid 12px;;
+  border-radius: 20px;
+  margin: auto ;
+  margin-top: 50%;
+  padding: 10px;
+  font-size: 36px;
+  text-align: center;
+  /* color: #333; */
+  
+  color: blue;
+}
+h2{
+  color: #333;
+  highlight: #110a51;
+  margin-top: 20px;
+
+}
+  h2 biography{
+  color: #555;
+  style: italic;}
+
+footer{
+  background-color: #6c2098;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+document{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+p{
+
+  text-size-adjust: 100%;
+  text-decoration-color: rgb(155, 118, 125);
+}
+
+.redish{
+  color: #ff0000;
+  font-weight: bold;
+  background-color: #6f3a92;
+}
+
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  header, section, footer {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+.samebuttoncategory {
+  background-color: aqua;
+  /* border: none; */
+  border-color: orange;
+  border-style: solid; 
+
+  border-width: 2px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(50, 7, 2);
+  color: black;
+}
+
+.lorem{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 26px;
+  background-color: #ff0000;
+  height: fit-content;
+  /* max-height: 300px; */
+  max-width: fit-content;
+  color: #333;
+  margin: 20px 0;
+}
